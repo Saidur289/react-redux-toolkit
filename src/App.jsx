@@ -1,6 +1,7 @@
 
 import './App.css'
 import CounterView from './app/features/counter/CounterView'
+import PostsView from './app/features/posts/PostsView'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <div>
         <h1>React Redux Toolkit</h1>
         <CounterView/>
+        <PostsView/>
       </div>
     </>
   )
